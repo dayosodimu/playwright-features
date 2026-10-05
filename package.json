@@ -1,0 +1,11 @@
+{
+  "name": "playwright-features",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright install chromium && playwright test --project=chromium --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
