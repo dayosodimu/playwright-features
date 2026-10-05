@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "playwright install chromium && playwright test --project=chromium --headed"
+    "test": "playwright install chromium && playwright test --project=chromium"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0"
